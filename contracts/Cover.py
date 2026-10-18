@@ -164,6 +164,7 @@ def injection_tripwire(page_text_str: str) -> bool:
         "ignore all",
         "automated review",
         "automated reviewer",
+        "automated reviewers",
         "ai reviewer",
         "language model",
         "classify all",
