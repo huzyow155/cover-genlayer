@@ -1,0 +1,132 @@
+{
+  "contractAddress": "0xa4a7a596246b0bcBfbeB05ae31922cD43fc68C31",
+  "deployTxHash": "0x49c0713e21680998242d0cfc82634919ddfa7f052e9f547c822cd8f86b273f9b",
+  "deployLatency": "10.75",
+  "codeSha256": "c233f4eca4c77d345c80ff4dc02852787dcb1ef18f890831681d964ecc4491c5",
+  "sender": "0xA0281D21FeDB96a9c51413595E596c61f229b689",
+  "views": {
+    "sender": "0xA0281D21FeDB96a9c51413595E596c61f229b689",
+    "probe_bool": true,
+    "probe_str": "studionet_probe_ok",
+    "probe_list": [
+      "v0",
+      "v1",
+      "v2"
+    ],
+    "probe_int_args": "int_val:42"
+  },
+  "transactions": [
+    {
+      "action": "imports_and_storage",
+      "functionName": "probe_imports_and_storage",
+      "txHash": "0x87b5171fa68d7836930ede2e88b697a0ff09cf97bd5de0ad089ce8dc4035b1f8",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "5.39"
+    },
+    {
+      "action": "web_fetch_github_raw_md",
+      "functionName": "probe_web_fetch",
+      "txHash": "0x2ed0dafb0996a8ce372b93cd2bb2cb4309cb76c3b3f8a0190a85a0469a456c19",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "15.44"
+    },
+    {
+      "action": "web_fetch_github_raw_html",
+      "functionName": "probe_web_fetch",
+      "txHash": "0xa81310e09b10ec5999f727d1b8ee815f26c9a9f542516656b5e3bc383bdcd638",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "12.11"
+    },
+    {
+      "action": "web_fetch_404",
+      "functionName": "probe_web_fetch",
+      "txHash": "0xdff225745b96174ac097f1d02f445409e66ebcb455d90646818b9a1149721817",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "12.12"
+    },
+    {
+      "action": "byte_stability",
+      "functionName": "probe_byte_stability",
+      "txHash": "0xed252bcd521a7d3680bb990ca47d9b8ab9d33b759857e5aedb70247867f1eb97",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "12.31"
+    },
+    {
+      "action": "llm_prompt",
+      "functionName": "probe_llm_prompt",
+      "txHash": "0x8c7c47b18d13b0ce649fc53e6c066a4f818416d72df1600b49722cd60275f335",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "15.38"
+    },
+    {
+      "action": "run_nondet_pattern",
+      "functionName": "probe_run_nondet_pattern",
+      "txHash": "0x5c40b9bef967d1a8a29a74539c30c5a1ae034e5d566e55576961b61877ce4d7c",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.76"
+    }
+  ],
+  "env_info": {
+    "ip": "192.168.1.1",
+    "parsed_netloc": "status.nimbus.example:443",
+    "parsed_scheme": "https",
+    "payload_len": 4000,
+    "regex_clean": "Hello World 123",
+    "sender": "0xA0281D21FeDB96a9c51413595E596c61f229b689",
+    "sha256": "3632c25666c55726c7ed057aa740349d1c21e7db985f641904f58ff9a2373932",
+    "test_int": "12345",
+    "unescaped": "\"hello & world\""
+  },
+  "s0_fetch": {
+    "length": 483,
+    "preview": "# Nimbus Cloud System Status\n\n**Current incident**\nIncident: No active incidents.\nStatus: All systems operational. No in",
+    "sha256": "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664",
+    "status": 200
+  },
+  "s5_fetch": {
+    "length": 816,
+    "preview": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>NIMBUS CLOUD SYSTEM HEALTH</title>\n</head>\n<bo",
+    "sha256": "ca10952b66d508977a0b4b636b17253e5efc36d8014579667206ef296bcb2ffb",
+    "status": 200
+  },
+  "fetch_404": {
+    "length": 14,
+    "preview": "404: Not Found",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "status": 404
+  },
+  "stability": {
+    "first_hash": "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664",
+    "hashes": [
+      "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664",
+      "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664",
+      "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664",
+      "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664",
+      "a53e84b7ce116d7256d90ffe7af5bb97e9982a7c3c4dbc3140680e8d2c40f664"
+    ],
+    "lengths": [
+      483,
+      483,
+      483,
+      483,
+      483
+    ],
+    "stable": true
+  },
+  "llm_out": "{\"status\":\"OPERATIONAL\",\"minutes\":0,\"quote\":\"\"}",
+  "run_nondet_res": "{\"raw\": \"{\\\"status\\\": \\\"OPERATIONAL\\\", \\\"minutes\\\": 0, \\\"quote\\\": \\\"\\\"}\", \"token\": \"TEST_TOKEN_OK\"}"
+}
