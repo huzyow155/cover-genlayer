@@ -1,0 +1,14 @@
+{
+  "name": "cover-genlayer",
+  "version": "1.0.0",
+  "description": "Parametric cover intelligent contract on GenLayer studionet",
+  "main": "index.js",
+  "scripts": {
+    "test": "python -m unittest discover -s tests -p 'test_*.py'"
+  },
+  "dependencies": {
+    "genlayer-js": "^1.1.8"
+  },
+  "author": "Hyper",
+  "license": "MIT"
+}

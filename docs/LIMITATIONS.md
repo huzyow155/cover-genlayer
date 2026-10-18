@@ -8,7 +8,7 @@ It records design trade-offs, scope boundaries, and operational constraints of t
 ## 1. Credit Ledger Model (No Real Money)
 - **Credits Only**: All balances, premiums, pool reserves, and settlement payouts are recorded on an internal contract ledger.
 - **No Token Locks**: No ERC-20, native GEN tokens, or real assets are escrowed, transferred, or locked by the contract.
-- **Not Regulated Insurance**: Cover is a computational experiment demonstrating autonomous, multi-validator parametric settlement on GenLayer. It does not constitute an insurance policy, warranty, or financial product.
+- **Not Regulated Insurance**: Cover is a computational experiment demonstrating multi-validator parametric settlement on GenLayer. It does not constitute an insurance policy, warranty, or financial product.
 
 ## 2. Status Page Constraints and Trust Model
 - **Provider-Authored Data**: Cover evaluates the public status page authored by the dependency provider. Cover verifies whether the provider *admitted* an outage in text; it does not independently probe the provider's infrastructure or network ports.
